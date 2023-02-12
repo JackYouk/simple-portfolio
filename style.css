@@ -43,6 +43,12 @@ header {
     margin-left: 20px;
     color: #cccccc;
 }
+.resume {
+    font-size: 40px;
+    margin-left: 20px;
+    color: #cccccc;
+    margin-top: 8px;
+}
 
 .slashMini {
     font-size: 40px;
