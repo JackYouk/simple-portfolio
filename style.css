@@ -81,16 +81,16 @@ header {
 }
 
 .remota {
-    background-image: url('./projectImgs/remotawebsite.png');
+    background-image: url('./public/projectImgs/remotawebsite.png');
 }
 .lfg {
-    background-image: url('./projectImgs/LFG.png');
+    background-image: url('./public/projectImgs/LFG.png');
 }
 .blogsite {
-    background-image: url('./projectImgs/BlogSitePic.png');
+    background-image: url('./public/projectImgs/BlogSitePic.png');
 }
 .playground {
-    background-image: url('./projectImgs/playgroundwebsite.png');
+    background-image: url('./public/projectImgs/playgroundwebsite.png');
 }
 
 .card:hover {
