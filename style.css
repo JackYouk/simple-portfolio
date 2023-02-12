@@ -3,6 +3,7 @@
 body {
     background-color: rgb(45, 69, 171);
     margin: 0;
+    overflow: hidden;
 }
 
 header {
@@ -64,7 +65,7 @@ header {
 
 .card {
     position: relative;
-    width: 250px;
+    width: 300px;
     height: 200px;
     transition: transform 0.5s ease;
     background-color: #FFFFFF;
@@ -76,6 +77,20 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+
+.remota {
+    background-image: url('./projectImgs/remotawebsite.png');
+}
+.lfg {
+    background-image: url('./projectImgs/LFG.png');
+}
+.blogsite {
+    background-image: url('./projectImgs/BlogSitePic.png');
+}
+.playground {
+    background-image: url('./projectImgs/playgroundwebsite.png');
 }
 
 .card:hover {
@@ -88,7 +103,6 @@ a {
 }
 
 .cardName {
-    color: white;
     font-family: 'Aldrich', sans-serif;
     font-size: 40px;
 }
@@ -128,5 +142,27 @@ a {
   
   .shaking-div:hover {
     animation-play-state: running;
+  }
+  
+
+  #popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 2;
+  }
+  
+  #popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 150px;
+    font-family: 'Aldrich', sans-serif;
   }
   
