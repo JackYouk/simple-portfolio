@@ -17,6 +17,7 @@ header {
 }
 
 .subtitle {
+    margin-top: 50px;
     color: white;
     font-size: 70px;
     font-family: 'Aldrich', sans-serif;
